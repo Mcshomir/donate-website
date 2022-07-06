@@ -8,10 +8,10 @@
 
 
 .first-section {
-    background-image: url(images/donation6.png);
+    background-image: url(images/donation66.png);
     background-size: cover;
 
-    height: 650px;
+    height: 700px;
 
 
 }
@@ -29,13 +29,14 @@
 
 .first-container h1 {
     margin: 20px 0;
-    font-size: 70px;
-    line-height: 75px;
+    font-size: 60px;
+    line-height: 50px;
 }
 
 .first-container p {
     margin-bottom: 50px;
     font-size: 20px;
+    padding: 0 200px;
 }
 
 .donate-btn {
@@ -58,6 +59,8 @@
 .second-section h1 {
     text-align: center;
     margin-top: 100px;
+    font-size: 50px;
+    line-height: 40px;
 
 
 }
@@ -65,12 +68,13 @@
 .second-section p {
     text-align: center;
     margin-top: 30px;
+    padding: 0 200px;
 }
 
 .parent-div {
     display: flex;
     justify-content: space-evenly;
-
+    margin: 0 200px;
 }
 
 .div {
@@ -86,6 +90,8 @@
 #div-id-2 {
     border: 2px solid tomato;
     color: tomato;
+    background-color: rgb(234, 216, 213);
+    border: none;
 }
 
 .another-div {
@@ -114,56 +120,75 @@ input[type="text"]::placeholder {
     padding-left: 15px;
 }
 
+.donate-btn2 {
+    padding: 10px 40px;
+    background-image: linear-gradient(to left, tomato, orange);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid tomato;
+
+
+}
+
+.donate-btn2:hover {
+    background-image: linear-gradient(to left, orange, tomato);
+    /* text-decoration: underline; */
+    border: 2px solid orange;
+}
 
 /* third section style form here */
-/* .parent-div-2 {
-    display: flex;
-
-} */
 .third-section {
     margin: 80px 80px;
+
+
 }
 
 .third-section h1 {
     text-align: center;
     margin-top: 100px;
+    font-size: 50px;
 
 }
 
 .third-section p {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin: 0 200px;
+
 }
+
+
 
 .child {
-    margin: 20px 10px;
-    border: 2px solid gray;
-    padding: 40px 20px;
+    align-items: left;
+    width: 30%;
+    height: 250px;
+    padding: 30px 10px;
+    border-radius: 8px;
     text-align: left;
-    border-radius: 14px;
     box-shadow: 4px 4px 16px gray;
-}
-
-.child p {
-    text-align: left;
+    margin-top: 20px;
+    margin-left: 38px;
 }
 
 #card-1 {
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 
 #card-2 {
-    background-color: cyan;
+    background-color: lightpink;
 
 }
 
 #card-3 {
-    background-color: aquamarine;
+    background-color: rgb(192, 238, 222);
 }
 
 /* fourth section style start form here */
 .fourth-container {
     display: flex;
+    margin: 0 100px;
 
 }
 
@@ -172,7 +197,7 @@ input[type="text"]::placeholder {
     width: 50%;
     padding: 10px;
     border-radius: 5px;
-    margin: 80px 80px;
+    margin: 80px 25px;
     text-align: left;
 
 }
@@ -184,12 +209,13 @@ input[type="text"]::placeholder {
 }
 
 .half-width h1 {
-    margin-top: 50px;
-
+    margin-top: 0px;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 .half-width p {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .donate-button {
@@ -206,18 +232,22 @@ input[type="text"]::placeholder {
 
 .donate-button:hover {
     background-image: linear-gradient(to left, orange, tomato);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     border: 2px solid orange;
 }
 
+
+
 /* last section style start from here */
 
-.last-container {
+.last-container h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 .last-container p {
     margin: 30px 0;
+    text-align: center;
 }
 
 .last-input {
@@ -256,7 +286,7 @@ input[type="text"]::placeholder {
 
 footer {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: black;
     height: 200px;
 
