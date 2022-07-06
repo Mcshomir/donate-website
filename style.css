@@ -37,6 +37,7 @@
     margin-bottom: 50px;
     font-size: 20px;
     padding: 0 200px;
+    color: white;
 }
 
 .donate-btn {
@@ -236,7 +237,52 @@ input[type="text"]::placeholder {
     border: 2px solid orange;
 }
 
+/* form section design from here */
+.form-section {
+    margin: 80px 130px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 20px;
+}
 
+.form-section h1 {
+    font-size: 50px;
+
+}
+
+.form-sectin input {
+    border: 1 px solid tomato;
+    font-size: 15px;
+    font-family: tahoma;
+
+
+}
+
+.form-section p {
+    font-size: 20px;
+    color: white;
+}
+
+.together {
+    display: flex;
+}
+
+.together-2 {
+    display: flex;
+}
+
+.together-2 p {
+    font-size: 10px
+}
+
+.one {
+    margin: 10px;
+}
+
+input[type:submit] {
+    padding: 10px 30px;
+    background-color: omato;
+}
 
 /* last section style start from here */
 
